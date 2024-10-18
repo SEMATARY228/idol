@@ -13,8 +13,12 @@
         url(fonts/Raleway-Regular.woff2);
 }
 
-html {
+html { 
     height: 100%;
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -23,14 +27,14 @@ body {
     min-width: 800px;
     height: 100%;
     position: relative;
-    font-size: 32px;
+
 }
 
 
 .page__title {
     margin-top:45px;
-    width: 650px;
-    height: 158px;
+    width: 739px;
+    height: 408px;
     top: 180px;
     left: 834px;
     font-family: "bold";
@@ -53,7 +57,7 @@ body {
     background-color: white;
     font-weight: 100;
     text-align: left;
-    padding: 30px;
+    padding: 20px;
     border: 2px solid black;
     border-bottom: 15px solid black;
     color: black;
